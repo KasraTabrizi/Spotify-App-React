@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login__header {
+  display: flex;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 85px;
+  line-height: 116px;
+}
+
+.login__logo img {
+  transform: rotate(-20deg);
+  width: 65%;
+}
+
+.login__header_text {
+  text-align: left;
+  color: white;
+}
+
+.login__button {
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  background: #59b071;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+}
